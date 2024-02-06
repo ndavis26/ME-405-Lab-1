@@ -1,16 +1,16 @@
-""" @file motor_driver.py
+"""! @file motor_driver.py
+This is the file that main.py imports the motor driver from. This files establishes the
+MotorDriver class to be used. 
 @author Nathaniel Davis
 @author Sebastian Bessoudo
 @date 02-05-2024
-This is the file that main.py imports the motor driver from. This files establishes the
-MotorDriver class to be used. 
 """
 
 import pyb
 import time
 
 class MotorDriver:
-    """
+    """!
     This class implements a motor driver for an ME405 kit.
     """
 

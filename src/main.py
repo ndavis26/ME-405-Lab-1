@@ -1,10 +1,11 @@
-""" @file main.py
-@author Nathaniel Davis
-@author Sebastian Bessoudo
-@date 02-05-2024
+"""! @file main.py
 This is a test for the motor driver class.
 Imports the MotorDriver class, then tests it.
 A value above +100 or below -100 will simply saturate the PWM.
+@author Nathaniel Davis
+@author Sebastian Bessoudo
+@date 02-05-2024
+
 """
 
 from motor_driver import MotorDriver

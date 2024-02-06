@@ -8,7 +8,7 @@ import pyb
 import time
 
 def led_setup():
-    """"!
+    """!
     Sets up LED configuration by definind output pin and timer to be used for PWM.
     """
     global A0
@@ -19,7 +19,7 @@ def led_setup():
     ch2 = tim2.channel(1, pyb.Timer.PWM_INVERTED, pin=pinA0)
 
 def led_brightness(brightness):
-    """"!
+    """!
     Changes LED brightness.
     @param brightness Uses a value of 0 - 100 to set brightness.
     """
